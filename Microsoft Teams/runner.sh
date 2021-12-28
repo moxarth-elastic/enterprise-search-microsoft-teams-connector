@@ -1,0 +1,1 @@
+# To run the multiple functionalities parallelly as a daemon process.
