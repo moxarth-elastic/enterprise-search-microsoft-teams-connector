@@ -27,11 +27,11 @@ schema = {
         'required': True,
         'type': 'string'
     },
-    'workplace_search.access_token': {
+    'enterprise_search.access_token': {
         'required': True,
         'type': 'string'
     },
-    'workplace_search.source_id': {
+    'enterprise_search.source_id': {
         'required': True,
         'type': 'string'
     },

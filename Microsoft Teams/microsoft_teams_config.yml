@@ -12,18 +12,18 @@ client_secret: "REDACTED"
 # Tenant Id of the Azure platform
 tenant_id: "abcdef-12345"
 
-#Workplace Search configuration settings
-#Access token for Workplace search authentication
-workplace_search.access_token: ""                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
-#Source identifier for the custom source created on the workplace search server
-workplace_search.source_id: ""
-#Workplace search server address Example: http://es-host:3002
+#Enterprise Search configuration settings
+#Access token for Enterprise search authentication
+enterprise_search.access_token: ""                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+#Source identifier for the custom source created on the Enterprise search server
+enterprise_search.source_id: ""
+#Enterprise search server address Example: http://es-host:3002
 enterprise_search.host_url: ""
 
 # Connector specific configuration settings
 # Denotes whether document permission will be enabled or not
 enable_document_permission: Yes
-# Specifies the objects to be fetched and indexed in the WorkPlace search along with fields 
+# Specifies the objects to be fetched and indexed in the Enterprise search along with fields 
 # that needs to be included/excluded. The list of the objects supported are users, teams, 
 # channels, chat_messages. By default all the objects are fetched
 objects:
